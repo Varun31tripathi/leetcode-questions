@@ -1,0 +1,1 @@
+[ $(wc -l < file.txt) -ge 10 ] && sed -n '10p' file.txt
